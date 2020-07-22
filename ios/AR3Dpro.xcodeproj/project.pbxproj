@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AR3DproTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AR3DproTests.m */; };
+		094A92E6A43A402AB2E54B7B /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48907EE4066D4231A09AFEE0 /* libRNVectorIcons-tvOS.a */; };
+		09B4F254ACB0405094EF8FB1 /* libRNReanimated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEDCA6FF85E441EA72A11BC /* libRNReanimated.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* AR3DproTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AR3DproTests.m */; };
+		3E9B31C156F0BD98DEB85F00 /* Pods_AR3Dpro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E311DBB2AF4738898AB270F /* Pods_AR3Dpro.framework */; };
+		61A6136266074544A0457404 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E57A644F4D46F198403642 /* libRNSVG.a */; };
+		66403428EE634DF98FC2437A /* libRNCMaskedView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73C186F2E346A19AB8A466 /* libRNCMaskedView.a */; };
+		6AE0E020ECA446BE8AA79196 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D9DC657365481E890ADD92 /* libBVLinearGradient.a */; };
+		6EC0A7319DC94189BDE4FBF8 /* libRNCAsyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A43D9A860AC4195A29F3614 /* libRNCAsyncStorage.a */; };
+		72B3E82409E9474F928989B5 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBF91AC75DD48819CBC7135 /* libRNGestureHandler.a */; };
+		8B22A444DAB946749FE14D2F /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C50ACA760B0467295FFC530 /* libRNGestureHandler-tvOS.a */; };
+		9911FBDB86EE4B8FB6F6B093 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06408B7122C742E39F13235D /* libRNVectorIcons.a */; };
+		A4C705A7173B4D11B902FDDB /* libRNCSafeAreaContext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A59CD476F744AFDA53E8790 /* libRNCSafeAreaContext.a */; };
+		BF569E7B5BB044FA8F459E62 /* libRNReanimated-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB93985B79AB4B3392C8169D /* libRNReanimated-tvOS.a */; };
+		C0735452FA6846BC820D8E41 /* libRNSpinkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE2BFE69E1A468EBE37A2B1 /* libRNSpinkit.a */; };
+		C5661CD3BD0F47CDAAD7C1E9 /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F5B08CF966439D8FDAD928 /* libRNSVG-tvOS.a */; };
+		EC12786FB49646FC8E1A8DC6 /* libRNScreens-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AFFA7D396649CE86C05889 /* libRNScreens-tvOS.a */; };
+		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		F6691379CA1447309E82DB99 /* libRNSearchBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5F7BFEA7254A2EA7901FC1 /* libRNSearchBar.a */; };
+		FD31F44D32CC4F46B531485B /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFFFB76D0A845DC8AC9CAA5 /* libRNScreens.a */; };
+		DBC90688F2034F5BA5AAA224 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 048B14C2628A46FCA7E5B323 /* BebasNeue-Regular.ttf */; };
+		70F6F6BFA2384741BD8A200B /* NanumBarunGothicOTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C4014D9E25641D090A7E98B /* NanumBarunGothicOTF.otf */; };
+		F20B54F7F0F948DE9D5FFEE6 /* NanumBarunGothicOTFBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7DDEC7489E547B7AA7C8500 /* NanumBarunGothicOTFBold.otf */; };
+		5D066E479AFF46F4A371E28B /* NanumSquareB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC6203B4C441719E650732 /* NanumSquareB.ttf */; };
+		241DB5899B04498A80C424D8 /* NanumSquareEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23C27EFDD6744CC386249C09 /* NanumSquareEB.ttf */; };
+		42DDBB83952A4A1CB7FCF41B /* NanumSquareL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A237AEE276C34B5C81E241A4 /* NanumSquareL.ttf */; };
+		878563C700E24DCC9779EB97 /* NanumSquareR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97B22CF8829F4CADBCC9E612 /* NanumSquareR.ttf */; };
+		5BC8056115D74EC983F4E74E /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D117A7901F14184905E2684 /* AntDesign.ttf */; };
+		86C4A89CD2F34EFB8CF02CCA /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ED509E60B74C3C97C92E99 /* Entypo.ttf */; };
+		92AEC4CCAAF946A5A86D98E0 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD025359762F4FEB84892A43 /* EvilIcons.ttf */; };
+		4C79337DB2864946A62548A6 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 755FC1BF80BF474792B2964C /* Feather.ttf */; };
+		FC4B2527814B4A66A8AA20EC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF7E08544E04A84BCD9E097 /* FontAwesome.ttf */; };
+		95C547DFE1674B73B131DB50 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9254F46C47A84E92BF443D77 /* FontAwesome5_Brands.ttf */; };
+		0B6C1A2FE81B4120A8039A02 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7621873714FDAA70B5B3A /* FontAwesome5_Regular.ttf */; };
+		5DF9EEC103B54F4690F0BFF8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35C23782E476468DBAB8B172 /* FontAwesome5_Solid.ttf */; };
+		44A6AEC3D97949998D9D7A4E /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2982E1D2CA234B85A3ADB685 /* Fontisto.ttf */; };
+		84F970378A12475A957542B0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20CDA05920144070A50A2B2D /* Foundation.ttf */; };
+		3AC741441DC84968939FE9E8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9742C0E5A1414D509D3134B1 /* Ionicons.ttf */; };
+		24A8BF694137456E903C9050 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9127C730174066AC99FBD1 /* MaterialCommunityIcons.ttf */; };
+		08ED72AC5E0A4DD59F3EEFFF /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41B8026CB90A4AD09692C524 /* MaterialIcons.ttf */; };
+		48118ED83D5642DB8C6B867E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8F0B33CFF4D40288F636160 /* Octicons.ttf */; };
+		3DE78A788D3A4A5388211C7F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5766960DFAB40CAA8DB21F3 /* SimpleLineIcons.ttf */; };
+		C761A64A42A1413BBC353435 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D45D4D5EAA0F4657A47547F1 /* Zocial.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AR3Dpro;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "AR3Dpro-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* AR3DproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR3DproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AR3DproTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AR3DproTests.m; sourceTree = "<group>"; };
+		00E57A644F4D46F198403642 /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
+		06408B7122C742E39F13235D /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
+		0CFFFB76D0A845DC8AC9CAA5 /* libRNScreens.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNScreens.a; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AR3Dpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR3Dpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AR3Dpro/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AR3Dpro/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AR3Dpro/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AR3Dpro/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AR3Dpro/main.m; sourceTree = "<group>"; };
+		1C50ACA760B0467295FFC530 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
+		1C73C186F2E346A19AB8A466 /* libRNCMaskedView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCMaskedView.a; sourceTree = "<group>"; };
+		1EE2BFE69E1A468EBE37A2B1 /* libRNSpinkit.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSpinkit.a; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* AR3Dpro-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR3Dpro-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* AR3Dpro-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR3Dpro-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D9DC657365481E890ADD92 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
+		48907EE4066D4231A09AFEE0 /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; };
+		4A59CD476F744AFDA53E8790 /* libRNCSafeAreaContext.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCSafeAreaContext.a; sourceTree = "<group>"; };
+		4AEDCA6FF85E441EA72A11BC /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNReanimated.a; sourceTree = "<group>"; };
+		64AFFA7D396649CE86C05889 /* libRNScreens-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNScreens-tvOS.a"; sourceTree = "<group>"; };
+		7A43D9A860AC4195A29F3614 /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = "<group>"; };
+		80F5B08CF966439D8FDAD928 /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; };
+		8CBF91AC75DD48819CBC7135 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
+		9B5F7BFEA7254A2EA7901FC1 /* libRNSearchBar.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSearchBar.a; sourceTree = "<group>"; };
+		9E311DBB2AF4738898AB270F /* Pods_AR3Dpro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR3Dpro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F664EB590DD6F64474D4D6A /* Pods-AR3Dpro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR3Dpro.debug.xcconfig"; path = "Target Support Files/Pods-AR3Dpro/Pods-AR3Dpro.debug.xcconfig"; sourceTree = "<group>"; };
+		AB93985B79AB4B3392C8169D /* libRNReanimated-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNReanimated-tvOS.a"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F7A94E19C046F74F31F06F5B /* Pods-AR3Dpro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR3Dpro.release.xcconfig"; path = "Target Support Files/Pods-AR3Dpro/Pods-AR3Dpro.release.xcconfig"; sourceTree = "<group>"; };
+		048B14C2628A46FCA7E5B323 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; name = "BebasNeue-Regular.ttf"; path = "../assets/fonts/BebasNeue-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C4014D9E25641D090A7E98B /* NanumBarunGothicOTF.otf */ = {isa = PBXFileReference; name = "NanumBarunGothicOTF.otf"; path = "../assets/fonts/NanumBarunGothicOTF.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B7DDEC7489E547B7AA7C8500 /* NanumBarunGothicOTFBold.otf */ = {isa = PBXFileReference; name = "NanumBarunGothicOTFBold.otf"; path = "../assets/fonts/NanumBarunGothicOTFBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9ADC6203B4C441719E650732 /* NanumSquareB.ttf */ = {isa = PBXFileReference; name = "NanumSquareB.ttf"; path = "../assets/fonts/NanumSquareB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23C27EFDD6744CC386249C09 /* NanumSquareEB.ttf */ = {isa = PBXFileReference; name = "NanumSquareEB.ttf"; path = "../assets/fonts/NanumSquareEB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A237AEE276C34B5C81E241A4 /* NanumSquareL.ttf */ = {isa = PBXFileReference; name = "NanumSquareL.ttf"; path = "../assets/fonts/NanumSquareL.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97B22CF8829F4CADBCC9E612 /* NanumSquareR.ttf */ = {isa = PBXFileReference; name = "NanumSquareR.ttf"; path = "../assets/fonts/NanumSquareR.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D117A7901F14184905E2684 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33ED509E60B74C3C97C92E99 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD025359762F4FEB84892A43 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		755FC1BF80BF474792B2964C /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BF7E08544E04A84BCD9E097 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9254F46C47A84E92BF443D77 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1CD7621873714FDAA70B5B3A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35C23782E476468DBAB8B172 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2982E1D2CA234B85A3ADB685 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20CDA05920144070A50A2B2D /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9742C0E5A1414D509D3134B1 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A9127C730174066AC99FBD1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41B8026CB90A4AD09692C524 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8F0B33CFF4D40288F636160 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5766960DFAB40CAA8DB21F3 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D45D4D5EAA0F4657A47547F1 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
+				6EC0A7319DC94189BDE4FBF8 /* libRNCAsyncStorage.a in Frameworks */,
+				66403428EE634DF98FC2437A /* libRNCMaskedView.a in Frameworks */,
+				72B3E82409E9474F928989B5 /* libRNGestureHandler.a in Frameworks */,
+				6AE0E020ECA446BE8AA79196 /* libBVLinearGradient.a in Frameworks */,
+				09B4F254ACB0405094EF8FB1 /* libRNReanimated.a in Frameworks */,
+				A4C705A7173B4D11B902FDDB /* libRNCSafeAreaContext.a in Frameworks */,
+				FD31F44D32CC4F46B531485B /* libRNScreens.a in Frameworks */,
+				F6691379CA1447309E82DB99 /* libRNSearchBar.a in Frameworks */,
+				C0735452FA6846BC820D8E41 /* libRNSpinkit.a in Frameworks */,
+				61A6136266074544A0457404 /* libRNSVG.a in Frameworks */,
+				9911FBDB86EE4B8FB6F6B093 /* libRNVectorIcons.a in Frameworks */,
+				3E9B31C156F0BD98DEB85F00 /* Pods_AR3Dpro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */,
+				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
+				8B22A444DAB946749FE14D2F /* libRNGestureHandler-tvOS.a in Frameworks */,
+				BF569E7B5BB044FA8F459E62 /* libRNReanimated-tvOS.a in Frameworks */,
+				EC12786FB49646FC8E1A8DC6 /* libRNScreens-tvOS.a in Frameworks */,
+				C5661CD3BD0F47CDAAD7C1E9 /* libRNSVG-tvOS.a in Frameworks */,
+				094A92E6A43A402AB2E54B7B /* libRNVectorIcons-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AR3DproTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AR3DproTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AR3DproTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AR3Dpro */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AR3Dpro;
+			sourceTree = "<group>";
+		};
+		1D11C6D924C8081C00C5993D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				7A43D9A860AC4195A29F3614 /* libRNCAsyncStorage.a */,
+				1C73C186F2E346A19AB8A466 /* libRNCMaskedView.a */,
+				8CBF91AC75DD48819CBC7135 /* libRNGestureHandler.a */,
+				35D9DC657365481E890ADD92 /* libBVLinearGradient.a */,
+				4AEDCA6FF85E441EA72A11BC /* libRNReanimated.a */,
+				4A59CD476F744AFDA53E8790 /* libRNCSafeAreaContext.a */,
+				0CFFFB76D0A845DC8AC9CAA5 /* libRNScreens.a */,
+				9B5F7BFEA7254A2EA7901FC1 /* libRNSearchBar.a */,
+				1EE2BFE69E1A468EBE37A2B1 /* libRNSpinkit.a */,
+				00E57A644F4D46F198403642 /* libRNSVG.a */,
+				06408B7122C742E39F13235D /* libRNVectorIcons.a */,
+				1C50ACA760B0467295FFC530 /* libRNGestureHandler-tvOS.a */,
+				AB93985B79AB4B3392C8169D /* libRNReanimated-tvOS.a */,
+				64AFFA7D396649CE86C05889 /* libRNScreens-tvOS.a */,
+				80F5B08CF966439D8FDAD928 /* libRNSVG-tvOS.a */,
+				48907EE4066D4231A09AFEE0 /* libRNVectorIcons-tvOS.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				9E311DBB2AF4738898AB270F /* Pods_AR3Dpro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E27F12D2748D062521858C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F664EB590DD6F64474D4D6A /* Pods-AR3Dpro.debug.xcconfig */,
+				F7A94E19C046F74F31F06F5B /* Pods-AR3Dpro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AR3Dpro */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AR3DproTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				2E27F12D2748D062521858C7 /* Pods */,
+				1D11C6D924C8081C00C5993D /* Recovered References */,
+				BC830C9722204BC0A1EEEC00 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AR3Dpro.app */,
+				00E356EE1AD99517003FC87E /* AR3DproTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* AR3Dpro-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* AR3Dpro-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC830C9722204BC0A1EEEC00 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				048B14C2628A46FCA7E5B323 /* BebasNeue-Regular.ttf */,
+				5C4014D9E25641D090A7E98B /* NanumBarunGothicOTF.otf */,
+				B7DDEC7489E547B7AA7C8500 /* NanumBarunGothicOTFBold.otf */,
+				9ADC6203B4C441719E650732 /* NanumSquareB.ttf */,
+				23C27EFDD6744CC386249C09 /* NanumSquareEB.ttf */,
+				A237AEE276C34B5C81E241A4 /* NanumSquareL.ttf */,
+				97B22CF8829F4CADBCC9E612 /* NanumSquareR.ttf */,
+				9D117A7901F14184905E2684 /* AntDesign.ttf */,
+				33ED509E60B74C3C97C92E99 /* Entypo.ttf */,
+				CD025359762F4FEB84892A43 /* EvilIcons.ttf */,
+				755FC1BF80BF474792B2964C /* Feather.ttf */,
+				6BF7E08544E04A84BCD9E097 /* FontAwesome.ttf */,
+				9254F46C47A84E92BF443D77 /* FontAwesome5_Brands.ttf */,
+				1CD7621873714FDAA70B5B3A /* FontAwesome5_Regular.ttf */,
+				35C23782E476468DBAB8B172 /* FontAwesome5_Solid.ttf */,
+				2982E1D2CA234B85A3ADB685 /* Fontisto.ttf */,
+				20CDA05920144070A50A2B2D /* Foundation.ttf */,
+				9742C0E5A1414D509D3134B1 /* Ionicons.ttf */,
+				9A9127C730174066AC99FBD1 /* MaterialCommunityIcons.ttf */,
+				41B8026CB90A4AD09692C524 /* MaterialIcons.ttf */,
+				E8F0B33CFF4D40288F636160 /* Octicons.ttf */,
+				E5766960DFAB40CAA8DB21F3 /* SimpleLineIcons.ttf */,
+				D45D4D5EAA0F4657A47547F1 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AR3DproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AR3DproTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AR3DproTests;
+			productName = AR3DproTests;
+			productReference = 00E356EE1AD99517003FC87E /* AR3DproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AR3Dpro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AR3Dpro" */;
+			buildPhases = (
+				238301556CD0F5F9CB14562E /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				819EC89E57B110B365385641 /* [CP] Copy Pods Resources */,
+				845F8BB75008E40672F9482A /* [CP] Embed Pods Frameworks */,
+				08D11A23B7C3D9AE539A6165 /* Execute Ngrok */,
+				8C8A2720E2F3F1330D04E6FC /* Copy ngrok endpoint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AR3Dpro;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* AR3Dpro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* AR3Dpro-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AR3Dpro-tvOS" */;
+			buildPhases = (
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR3Dpro-tvOS";
+			productName = "AR3Dpro-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* AR3Dpro-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* AR3Dpro-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AR3Dpro-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "AR3Dpro-tvOSTests";
+			productName = "AR3Dpro-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* AR3Dpro-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AR3Dpro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AR3Dpro */,
+				00E356ED1AD99517003FC87E /* AR3DproTests */,
+				2D02E47A1E0B4A5D006451C7 /* AR3Dpro-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* AR3Dpro-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				DBC90688F2034F5BA5AAA224 /* BebasNeue-Regular.ttf in Resources */,
+				70F6F6BFA2384741BD8A200B /* NanumBarunGothicOTF.otf in Resources */,
+				F20B54F7F0F948DE9D5FFEE6 /* NanumBarunGothicOTFBold.otf in Resources */,
+				5D066E479AFF46F4A371E28B /* NanumSquareB.ttf in Resources */,
+				241DB5899B04498A80C424D8 /* NanumSquareEB.ttf in Resources */,
+				42DDBB83952A4A1CB7FCF41B /* NanumSquareL.ttf in Resources */,
+				878563C700E24DCC9779EB97 /* NanumSquareR.ttf in Resources */,
+				5BC8056115D74EC983F4E74E /* AntDesign.ttf in Resources */,
+				86C4A89CD2F34EFB8CF02CCA /* Entypo.ttf in Resources */,
+				92AEC4CCAAF946A5A86D98E0 /* EvilIcons.ttf in Resources */,
+				4C79337DB2864946A62548A6 /* Feather.ttf in Resources */,
+				FC4B2527814B4A66A8AA20EC /* FontAwesome.ttf in Resources */,
+				95C547DFE1674B73B131DB50 /* FontAwesome5_Brands.ttf in Resources */,
+				0B6C1A2FE81B4120A8039A02 /* FontAwesome5_Regular.ttf in Resources */,
+				5DF9EEC103B54F4690F0BFF8 /* FontAwesome5_Solid.ttf in Resources */,
+				44A6AEC3D97949998D9D7A4E /* Fontisto.ttf in Resources */,
+				84F970378A12475A957542B0 /* Foundation.ttf in Resources */,
+				3AC741441DC84968939FE9E8 /* Ionicons.ttf in Resources */,
+				24A8BF694137456E903C9050 /* MaterialCommunityIcons.ttf in Resources */,
+				08ED72AC5E0A4DD59F3EEFFF /* MaterialIcons.ttf in Resources */,
+				48118ED83D5642DB8C6B867E /* Octicons.ttf in Resources */,
+				3DE78A788D3A4A5388211C7F /* SimpleLineIcons.ttf in Resources */,
+				C761A64A42A1413BBC353435 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		08D11A23B7C3D9AE539A6165 /* Execute Ngrok */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Execute Ngrok";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = $SRCROOT/ngrok_launch.sh;
+		};
+		238301556CD0F5F9CB14562E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR3Dpro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		819EC89E57B110B365385641 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR3Dpro/Pods-AR3Dpro-resources.sh",
+				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitHUD.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/MaterialRobotoFontLoader.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CardboardSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialRobotoFontLoader.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR3Dpro/Pods-AR3Dpro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845F8BB75008E40672F9482A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR3Dpro/Pods-AR3Dpro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/../../node_modules/react-viro/ios/dist/ViroRenderer/ViroKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViroKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR3Dpro/Pods-AR3Dpro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8A2720E2F3F1330D04E6FC /* Copy ngrok endpoint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy ngrok endpoint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEST=$CONFIGURATION_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\nendpointfile=\"ngrokendpoint.txt\"\nif [[ -e \"$SRCROOT/$endpointfile\" ]]; then\necho \"Ngrok endpoint file found, copying over...\"\ncp \"$SRCROOT/$endpointfile\" \"$DEST/$endpointfile\"\nbreak;\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AR3DproTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* AR3DproTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AR3Dpro */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* AR3Dpro-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = AR3Dpro;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = AR3DproTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR3Dpro.app/AR3Dpro";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = AR3DproTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR3Dpro.app/AR3Dpro";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F664EB590DD6F64474D4D6A /* Pods-AR3Dpro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = AR3Dpro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AR3Dpro;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A94E19C046F74F31F06F5B /* Pods-AR3Dpro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = AR3Dpro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AR3Dpro;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = "AR3Dpro-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AR3Dpro-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = "AR3Dpro-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AR3Dpro-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = "AR3Dpro-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AR3Dpro-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR3Dpro-tvOS.app/AR3Dpro-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/react-native-search-bar/ios",
+					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+				);
+				INFOPLIST_FILE = "AR3Dpro-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AR3Dpro-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR3Dpro-tvOS.app/AR3Dpro-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AR3DproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AR3Dpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AR3Dpro-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AR3Dpro-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AR3Dpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
